@@ -98,9 +98,7 @@ All recommendations align with **GDPR** and privacy-by-design principles:
 ## 🧰 Tools & Techniques  
 - **Google BigQuery & SQL** – Data extraction and transformation.  
 - **Looker Studio** – Visual analytics and campaign dashboards.  
-- **Python (VADER, pandas)** – Supporting sentiment and pattern analysis.  
 - **RFM Segmentation** – Recency, Frequency, Monetary scoring.  
-- **Predictive Modelling** – Logistic regression, gradient boosting for churn risk.  
 - **AI Integration** – Generative AI for scalable personalisation within ethical guidelines.  
 
 ---
