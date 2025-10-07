@@ -17,15 +17,6 @@ The analysis combined five datasets covering **customers**, **traditional donati
 
 The goal was to provide **evidence-based recommendations** to improve donor retention, optimise fundraising performance, and ensure responsible use of Generative AI in personalised engagement.  
 
----
-
-## 📂 Project Structure  
-📁 mobileimpact-donor-analytics
-┣ 📄 MIS784_A3_Group60_Report.docx # Full business report with insights and recommendations
-┣ 📄 MIS784_A3_Group60_Query.docx # SQL and analytical queries used for analysis
-┗ 📄 README.md # This file
-
-
 ## 📈 Key Analytical Components  
 
 ### **Data Preparation & Integration**  
