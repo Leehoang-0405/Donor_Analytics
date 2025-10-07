@@ -25,20 +25,6 @@ The goal was to provide **evidence-based recommendations** to improve donor rete
 ┣ 📄 MIS784_A3_Group60_Query.docx # SQL and analytical queries used for analysis
 ┗ 📄 README.md # This file
 
-markdown
-Copy code
-
----
-
-## 🚀 How to Use  
-
-### 1. Review the Queries  
-Open `MIS784_A3_Group60_Query.docx` to explore the SQL and analytical queries used for segmentation, churn analysis, and channel performance.  
-
-### 2. Read the Report  
-`MIS784_A3_Group60_Report.docx` provides the complete analysis, findings, and strategic recommendations written for a non-technical audience.  
-
----
 
 ## 📈 Key Analytical Components  
 
