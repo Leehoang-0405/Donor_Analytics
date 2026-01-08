@@ -100,8 +100,7 @@ These capabilities are transferable to any role requiring **data-informed market
 ---
 
 ## Project Context and Credits
-Client: MobileImpact  
-Program: MIS784 – Marketing Analytics, Deakin University  
+Client: MobileImpact (Client's real name was annonymised due to confidentiality clause)
 
 Team members:  
 Ba Huy Hoang Le  
