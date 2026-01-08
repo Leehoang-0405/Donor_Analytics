@@ -35,6 +35,5 @@ MobileImpact faces a critical financial risk characterized by an 86.5% revenue c
 
 ## 7. Context and Credits
 * **Client:** MobileImpact (Non-profit organization). Client's name was anonymised due to confidentiality clause. 
-* **Program:** MIS784: Marketing Analytics.
-* **Team:** Ba Huy Hoang Le (224309594), Jayseon Choi, Simran Thakur.
+* **Team:** Ba Huy Hoang Le, Jayseon Choi, Simran Thakur.
 * **AI Disclosure:** Generative AI tools were used for refining content and code snippets within the original report.
