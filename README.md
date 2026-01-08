@@ -1,110 +1,40 @@
-# MobileImpact Donor Analytics
-## Data-Driven Engagement Strategy to Reduce Churn and Optimise Revenue
+# Personalised Engagement Strategies for Sustainable Fundraising: A Data-Driven Approach
 
-## Executive Summary
-MobileImpact faced uneven donor engagement across traditional and in-app channels. High-value in-app donors (“whales”) generated 85.6% of revenue but were at risk of disengagement, while one-time and younger donors lacked personalised nurturing.
+## 1. Executive Summary
+MobileImpact faces a critical financial risk characterized by an 86.5% revenue concentration among its top 10% of donors. This project addresses the urgent need for donor diversification and churn prevention by moving away from generic marketing toward a segmented, behavior-based engagement strategy. By integrating disparate datasets via SQL (BigQuery), this solution identifies high-value "At Risk" segments and provides a framework to stabilize funding for Sustainable Development Goal (SDG) initiatives. This work transitioned the organization from reactive fundraising to proactive, data-backed donor lifecycle management.
 
-I led an analytics intervention that integrated five datasets to segment donors, predict churn risk, and design behaviour-driven, AI-assisted engagement strategies. Key tactical initiatives included: **genre-aligned messaging for younger in-app donors, behaviour-based reminders for high-value app donors, and predictive RFM alert tiers for traditional donors**. These recommendations were privacy-compliant, actionable, and designed to improve retention, optimise campaign efficiency, and protect high-value revenue.
+## 2. Business Problem
+**The Decision:** The organization repeatedly made the decision to apply uniform marketing outreach across its entire donor base, regardless of individual engagement history or platform preference.
 
-This project demonstrates my ability to **translate complex data into concrete, revenue-impacting engagement strategies**.
+**The Failure:** Current logic was flawed because it relied heavily on high-value "whale" donors without a retention framework for "minnow" or app-based supporters. The organization lacked a clear understanding of the distinct behavioral drivers between traditional donors and mobile app users.
 
----
+**The Impact:** With 86.5% of total revenue tied to a tiny fraction of the donor base, the loss of even a few key contributors poses an threat to SDG-aligned projects. Generic outreach resulted in a 12% drop in campaign engagement among previously active mobile users.
 
-## Broken Decision / Business Problem
-The client relied on uniform engagement campaigns and generic messaging, treating all donors within a channel the same.
+## 3. Methodology
+* **Data Integration:** Utilized **SQL (BigQuery)** to join five distinct tables: Customer, Donation, In-app, Campaign, and Response.
+* **Exploratory Data Analysis:** Conducted a comprehensive audit of donor behavior patterns, payment method performance, and seasonal donation trends.
+* **RFM Segmentation:** Developed a Recency, Frequency, and Monetary framework to categorize the donor base into actionable segments: Cannot Lose, At Risk, and Promising Newbies.
+* **Churn Analysis:** Evaluated the relationship between campaign response rates, click-through metrics, and demographic influences to identify early warning signals of supporter fatigue.
 
-Consequences included:  
-- Over-engagement of high-value in-app donors, risking fatigue and churn  
-- Under-engagement of promising or younger donors, missing growth opportunities  
-- Inefficient channel allocation, with email, social media, and direct mail underutilised strategically  
+## 4. Demonstration of Skills and Capabilities
+* **Advanced SQL Querying:** Executed complex joins and aggregations in BigQuery to deduplicate campaign responses and calculate accurate ROI per donor segment.
+* **Behavioral Segmentation:** Proved that traditional donors and mobile app users require different engagement models, as mobile users show higher frequency but lower individual monetary value compared to traditional contributors.
+* **Data Integrity and Cleaning:** Identified and managed outlier behavior in the top 5% of contributors to ensure that "whale" data did not skew the strategic recommendations for the broader donor base.
+* **Marketing Analytics:** Calculated Campaign Cost per Engaged Person across different campaign types to determine which channels (e.g., social media vs. direct email) yielded the highest retention for specific age demographics.
 
-Without intervention, revenue concentration on a small donor segment created long-term sustainability risk, and campaign ROI was suboptimal.
+## 5. Results & Business Recommendations
+* **Revenue Preservation:** Identified that "At Risk" donors previously averaged $271 per person. Reactivating just 10% of this segment would significantly diversify the revenue stream away from the 86.5% concentration.
+* **Tiered Incentive Strategy:** Recommended a shift toward "behavior-based reminders" for in-app donors, focusing on game genres and device performance metrics that show higher engagement.
+* **Channel Optimization:** Based on the data, outreach should prioritize personalized campaign updates for one-time donors to convert them into recurring supporters, specifically targeting younger demographics through optimized mobile channels.
+* **Direct Impact:** Implementing the proposed segmented outreach is estimated to improve the click-through rate for "Promising Newbies" by aligning campaign types with their documented payment preferences.
 
----
+## 6. Next Steps
+* **Generative AI Integration:** Utilize GenAI to create personalized, high-scale content for different RFM segments to reduce manual marketing overhead.
+* **Predictive RFM:** Move from descriptive segmentation to predictive modeling to forecast donor churn 30 days before the last engagement.
+* **Privacy-Preserving Personalization:** Implement frameworks to ensure donor data remains secure while increasing the granularity of personalized outreach.
 
-## Business Impact
-- 10% of in-app donors generate >85% of revenue → losing or disengaging this group would have disproportionate impact  
-- Traditional donors had high inactivity (67% inactive >180 days), threatening ongoing contributions  
-- Campaign inefficiencies and poorly targeted outreach risked both revenue and donor trust  
-- Improving retention and targeting could materially increase revenue while reducing donor fatigue  
-
-For any organisation relying on recurring contributions, this represents both a **financial and reputational challenge**.
-
----
-
-## My Analytical Intervention
-I redesigned donor engagement strategy from a generic, uniform approach to a **behaviour-driven, predictive, and personalised framework**, organised into three strategic pillars:
-
-1. **Personalised Outreach**  
-   - Reactivate one-time and younger donors using campaign updates linked to past causes  
-   - Retain high-value app donors (“whales” and “dolphins”) with behaviour-based reminders  
-   - Engage younger in-app donors with genre-aligned messages (Adventure, MMORPG)  
-   - Use Generative AI for scalable message drafting under human oversight and compliance  
-
-2. **Predictive Retention for Traditional Donors**  
-   - Implement predictive RFM-scoring to classify donors into alert tiers (Cannot Lose → Red Alert)  
-   - Trigger tailored retention interventions by contribution tier and demographics  
-   - Integrate AI-assisted personalisation within GDPR-compliant frameworks  
-
-3. **Tiered Incentives & Early Activation**  
-   - Retain whales with exclusive bundles and recognition; motivate dolphins with progression rewards  
-   - Engage minnows early with low-cost starter packs or micro-bonuses  
-   - Trigger first-purchase incentives within two weeks to build loyalty  
-   - Use streaks, loyalty badges, and genre-specific rewards to sustain engagement  
-
-Old logic → new logic: uniform campaigns → targeted, behaviour-based engagement and predictive retention.
-
----
-
-## Demonstration of Skills and Capabilities
-This project demonstrates my ability to:  
-- Integrate and clean multiple datasets from diverse sources  
-- Design actionable RFM and behaviour-based donor segmentation  
-- Develop predictive retention logic for traditional donors  
-- Translate analytics into **concrete, operational campaigns** with measurable impact  
-- Apply AI responsibly for scalable, GDPR-compliant personalisation  
-- Balance revenue optimisation with donor experience and long-term engagement  
-
-These skills are directly applicable to marketing analytics, CRM, growth, and retention roles.
-
----
-
-## Evidence and Validation
-- Segmentation and predictive tiers identified at-risk and high-value donors accurately  
-- Channel allocation decisions validated through historical engagement and response metrics  
-- AI-assisted personalisation tested on small cohorts for effectiveness and compliance  
-- Assumptions stress-tested across seasonal patterns and donor demographics  
-
-All validation focused on **business relevance and decision confidence**, not technical metrics alone.
-
----
-
-## Resulting Business Outcomes
-- Improved retention of high-value in-app donors, protecting key revenue streams  
-- Increased engagement among younger or one-time donors through targeted campaigns  
-- Optimised campaign efficiency with better channel allocation (email, social, direct mail)  
-- Maintained compliance and donor trust, reducing reputational risk  
-- Designed interventions with **both immediate revenue impact and long-term donor sustainability**
-
----
-
-## Why This Matters to a Hiring Manager
-This project shows that I can:  
-- Identify hidden revenue and engagement risks in multi-channel donor data  
-- Turn analytics into **actionable strategies that influence decisions**  
-- Integrate data, predictive modelling, and AI responsibly  
-- Communicate insights and interventions in a way stakeholders can implement  
-
-These capabilities are transferable to any role requiring **data-informed marketing, CRM, or retention strategy**.
-
----
-
-## Project Context and Credits
-Client: MobileImpact (Client's real name was annonymised due to confidentiality clause)
-
-Team members:  
-Ba Huy Hoang Le  
-Jayseon Choi  
-Simran Thakur  
-
-AI disclosure: AI tools were used for drafting and structural improvements. All analysis, decisions, and conclusions were developed, reviewed, and approved by the project team.
+## 7. Context and Credits
+* **Client:** MobileImpact (Non-profit organization). Client's name was anonymised due to confidentiality clause. 
+* **Program:** MIS784: Marketing Analytics.
+* **Team:** Ba Huy Hoang Le (224309594), Jayseon Choi, Simran Thakur.
+* **AI Disclosure:** Generative AI tools were used for refining content and code snippets within the original report.
